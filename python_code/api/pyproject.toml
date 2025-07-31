@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cafe"
+version = "0.1.0"
+description = ""
+authors = ["Kiran Shrestha <kiranshrestha2069@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+python-dotenv = "^1.1.0"
+ipykernel = "^6.29.5"
+pinecone = "^7.0.2"
+openai = "^1.82.1"
+runpod = "1.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
